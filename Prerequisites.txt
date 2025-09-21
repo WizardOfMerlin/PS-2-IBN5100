@@ -1,0 +1,35 @@
+﻿Prerequisites:
+
+
+Have python3.7 or greater installed
+Have pip installed (for installing modules)
+Stable internet connection (for translating)
+RAM : 4GB 
+Storage : 2GB
+CPU : Any modern CPU
+(Recommended : GPU)
+
+
+Modules Used:
+
+
+torch, torchvision, torchaudio
+transformers
+sentence-transformers 
+scikit-learn
+pandas
+streamlit
+translatepy
+tqdm
+datetime
+
+
+Files Used
+.csv file as input, training data, testing data
+Trained model file (here, it’s query_category_model.pt)
+All python files included in the repository 
+
+
+Dependancies:
+Main_Real.py is dependant on Translator_Real_(Step1).py and Trainer_Real.py 
+Trainer_Real.py is dependant on Translator_Real_(Step1).py
